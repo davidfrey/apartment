@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
 
-  s.add_dependency 'activerecord',    '~> 3.0.10'   # must be >= 3.0.10 due to poor schema support pre 3.0.10
-  s.add_dependency 'rack',            '~> 1.2.5'
+  s.add_dependency 'activerecord',    '>= 3.0.10'   # must be >= 3.0.10 due to poor schema support pre 3.0.10
+  s.add_dependency 'rack',            '>= 1.2.5'
 
   s.add_development_dependency 'rake',            '~> 0.8.7'
-  s.add_development_dependency 'rails',           '~> 3.0.10'
+  s.add_development_dependency 'rails',           '>= 3.0.10'
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'rspec',           '~> 2.6.0'
   s.add_development_dependency 'rspec-rails',     '~> 2.6.1'
